@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplo 1</title>
+    <style>
+
+
+        .imgRedonda {
+            width: 200px;
+            height: 200px;
+            position: fixed;
+            z-index: 1;
+            border-radius: 50%;
+        }
+        .camera{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 10000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            color: #fff;
+        }
+        .fa-camera {
+            font-size: 34px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="circle">
+            <div class="camera">
+                <i class="fas fa-camera"></i>
+                <span>Cambiar Logo</span>
+            </div>
+            <img class="imgRedonda" src="https://pbs.twimg.com/profile_images/862697497847902208/GEfBigMV_400x400.jpg" alt="">
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/fc1b5977fb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
