@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button Flotante</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            height: 100vh;
+        }
+
+        .flotante {
+            width: 40px;
+            padding: 2% 0;
+            border-radius: 50px;
+            background: #F44336;
+            right: 0;
+            bottom: 50%;
+            position: absolute;
+            margin-right: 16px;
+            margin-bottom: 16px;
+            border: none;
+            outline: none;
+            color: #FFF;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .span-txt-flotante {
+            font: normal normal 700 16px/1.4em avenir-lt-w01_85-heavy1475544, sans-serif;
+            writing-mode: vertical-rl;
+            text-transform: uppercase;
+            font-weight: 600;
+            cursor: pointer;
+            /* text-orientation: upright; */
+        }
+
+        .flotante:hover {
+            background-color: #fff;
+            color: #F44336;
+            transition: color 0.4s ease 0s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="flotante">
+            <span class="span-txt-flotante">Contactar Asesor</span>
+        </div>
+    </div>
+</body>
+
+</html>
