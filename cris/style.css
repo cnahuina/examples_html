@@ -1,0 +1,288 @@
+@media only screen and (max-width: 375px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body {
+   
+      background-color: #ffffff;
+    }
+
+    .header-title{
+        background-color: #4100B1;
+        color: #ffffff;
+        padding: 21px;
+
+        /* TITLE-VIEW */
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .contain{
+        padding: 16px;
+    }
+    .label-input{
+        /* LABEL INPUT */
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1px;
+
+        /* Gray 1 */
+
+        color: #333333;
+    }
+    .card{
+        width: 340px;
+        height: 84px;
+        background: #FFFFFF;
+        /* shadow-gallery */
+
+        box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 30px 0 29px 18px;
+        box-sizing: border-box;
+        margin-top: 14px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8B8B8B;
+    }
+    .btn-send{
+        width: 344px;
+        height: 40px;
+        margin-top: 71px;
+        background: #00BE88;
+        color: #ffffff;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+
+    /* SECOND PAGE  */
+    .collapse-list {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    
+    .collapse-open {
+        display: none;
+    }
+    
+    .collapse-painel {
+        visibility: hidden;
+        max-height: 0;
+        opacity: 0;
+        transition: max-height .1s,
+        visibility .3s,
+        opacity .3s;
+    }
+    
+    .collapse-open:checked ~ .collapse-painel {
+        max-height: 100%;
+        opacity: 100;
+        visibility: visible
+    }
+    
+    .collapse-list li {
+        margin-bottom: 0;
+    }
+   
+    .collapse-list .collapse-btn {
+        border-top: 1px solid #e0e0e0;
+        cursor: pointer;
+        display: block;
+        padding: 15px 10px;
+        margin-bottom: 0;
+        font-weight: normal;
+        transition: background-color .2s ease;
+    }
+    .collapse-list li .collapse-btn:nth-child(1) {
+        border-top: 0!important;
+    }
+    
+    .collapse-list .collapse-btn:hover {
+        background: #fff;
+    }
+    
+    .collapse-open ~ .collapse-btn:before {
+        font-family: 'Material Icons';
+        content: "\e315";
+        float: right;
+    }
+    
+    .collapse-open:checked ~ .collapse-btn:before {
+        content: "\e316";
+        font-family: 'Material Icons';
+    }
+    
+    .collapse-list .collapse-inner {
+        padding: 10px
+    }
+
+    .subtitle-card{
+        /* Subtitle-card */
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        /* or 133% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.2px;
+
+        /* C-9 */
+
+        color: #8B8B8B;
+    }
+
+    /* THIRD SCREEN  */
+
+
+    .title-target{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        /* or 111% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+
+        /* Gray 1 */
+
+        color: #333333;
+
+        padding-bottom: 26px;
+    }
+    .text-target{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        display: flex;
+        align-items: center;
+
+        color: #4A4A4A;
+    }
+    .center{
+        padding-top: 114px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        
+    }
+    .image{
+        padding-bottom: 44px;
+    }
+
+      /* FOUR SCREEN  */
+    input[type="text"]{
+        width: 344px;
+        border: 1px solid #ABB7C5;
+        padding: 11px 22px;
+        margin-top: 8px;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    .form-group{
+        padding: 15px 0;
+    }
+    select{
+        width: 340px;
+        padding: 11px 22px;
+        box-sizing: border-box;
+        border: 1px solid #ABB7C5;
+    }
+    option{
+        font-family: 'Material Icons';
+    }
+
+    /* FIVE SCREEN */
+    .new{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 35px;
+        padding: 18px;
+    }
+    .title-questions{
+        /* Placeholder-input */
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 133% */
+        color: #333333;
+    }
+    .icon-rotate{
+        transform: rotate(-90deg);
+    }
+    .col1{
+        /* width: 55%; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .target-new{
+        padding-left: 14px;
+
+        /* TITLE-VIEW */
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+    }
+    .target-added{
+        padding-left: 33px;
+        display: flex;
+        flex-direction: column;
+    }
+    .number-target{
+        /* TITLE-VIEW */
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+    }
+
+    .type-target{
+        /* Subtitle-card */
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8B8B8B;
+    }
+  }
